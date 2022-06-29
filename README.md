@@ -1,1 +1,1 @@
-# ftl-lombok-101
+# ftl-maven-101
