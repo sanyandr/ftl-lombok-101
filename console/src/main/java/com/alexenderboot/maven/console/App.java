@@ -1,11 +1,10 @@
 package com.alexenderboot.maven.console;
 
-import com.alexenderboot.maven.core.Person;
+import com.alexenderboot.maven.core.ValExample;
 
 public class App {
     public static void main(String[] args) {
-        Person person = new Person();
-        person.setFirstName("SASHATEST");
-        System.out.println(person.getFirstName());
+        System.out.println(ValExample.example());
+        ValExample.example2();
     }
 }
