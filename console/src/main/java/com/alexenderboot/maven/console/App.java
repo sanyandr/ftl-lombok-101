@@ -56,10 +56,14 @@ public class App {
         String[] tags = new String[2];
         tags[0] = "tag1";
         tags[1] = "tag2";
-        DataExample test = new DataExample("obj");
+        DataExample test = new DataExample("obj1");
         test.setScore(10.1);
         test.setTags(tags);
         System.out.println(test);
-        
+
+        //Lesson 11, Value example
+        //same as data but types are final and no setters
+        ValueExample test1 = new ValueExample("obj2", 9, 10.1, tags);
+        System.out.println(test1);
     }
 }
