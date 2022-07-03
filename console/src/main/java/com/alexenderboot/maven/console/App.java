@@ -24,5 +24,11 @@ public class App {
         streams[0] = "/Users/aleksandrboot/Desktop/jb-101/ftl-lombok-101/console/src/main/java/com/alexenderboot/maven/console/inClean.txt";
         streams[1] = "/Users/aleksandrboot/Desktop/jb-101/ftl-lombok-101/console/src/main/java/com/alexenderboot/maven/console/outClean.txt";
         CleanupExample.run(streams);
+
+        //Lesson 6, Getter & Setter
+        GetterSetterExample gettersetterPerson = new GetterSetterExample();
+        gettersetterPerson.setAge(10);
+        //cannot set name cause setter is private: gettersetterPerson.setName
+        System.out.println(gettersetterPerson.getAge());
     }
 }
