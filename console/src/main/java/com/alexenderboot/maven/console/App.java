@@ -65,5 +65,8 @@ public class App {
         //same as data but types are final and no setters
         ValueExample test1 = new ValueExample("obj2", 9, 10.1, tags);
         System.out.println(test1);
+
+        //Lesson 12, Builder example
+        System.out.println(BuilderExample.run());;
     }
 }
