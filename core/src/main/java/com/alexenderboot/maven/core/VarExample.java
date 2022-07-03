@@ -8,7 +8,7 @@ import lombok.var;
 
 public class VarExample {
     public static String example() {
-        var foo = "Случайное число: ";
+        var foo = "Случайное число:";
         Random r = new Random();
         foo = foo + r.nextInt();
         return foo;
