@@ -74,5 +74,12 @@ public class App {
         synch.foo();
         System.out.println(synch.answerToLife());
         synch.hello();
+
+        //Lesson 14, @with
+        //Creating test object and then creating clone of object with another age;
+        WithExample testWith = new WithExample("name", 1);
+        System.out.println(testWith);
+        WithExample testWithClone = testWith.withAge(9);
+        System.out.println(testWithClone);
     }
 }
