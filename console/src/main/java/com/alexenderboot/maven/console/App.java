@@ -5,6 +5,8 @@ import com.alexenderboot.maven.core.*;
 import javax.naming.NameNotFoundException;
 import java.io.IOException;
 
+import static com.alexenderboot.maven.core.EqualsAndHashCodeExample.*;
+
 public class App {
     public static void main(String[] args) throws IOException {
         //Lesson 2, val Example
@@ -33,6 +35,13 @@ public class App {
 
         //Lesson 7, toString
         ToStringExample.Square shape1 = new ToStringExample.Square(1, 1);
-        System.out.println(shape1);
+        //System.out.println(shape1);
+
+        //Lesson 8, Eq&Hash
+        Square square = new Square(1, 1);
+        Square square1 = new Square(1, 1 );
+        System.out.println(square);
+        System.out.println(square1);
+        System.out.println(square.equals(square1));
     }
 }

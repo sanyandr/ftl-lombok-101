@@ -2,6 +2,7 @@ package com.alexenderboot.maven.core;
 import lombok.Setter;
 import lombok.ToString;
 
+@Setter
 @ToString
 public class ToStringExample {
     private static final int STATIC_VAR = 10;
