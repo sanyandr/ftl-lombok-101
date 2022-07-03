@@ -30,5 +30,9 @@ public class App {
         gettersetterPerson.setAge(10);
         //cannot set name cause setter is private: gettersetterPerson.setName
         System.out.println(gettersetterPerson.getAge());
+
+        //Lesson 7, toString
+        ToStringExample.Square shape1 = new ToStringExample.Square(1, 1);
+        System.out.println(shape1);
     }
 }
