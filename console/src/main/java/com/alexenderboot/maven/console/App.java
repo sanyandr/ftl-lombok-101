@@ -67,6 +67,12 @@ public class App {
         System.out.println(test1);
 
         //Lesson 12, Builder example
-        System.out.println(BuilderExample.run());;
+        System.out.println(BuilderExample.run());
+
+        //Lesson 13, synchronized
+        SynchronizedExample synch = new SynchronizedExample();
+        synch.foo();
+        System.out.println(synch.answerToLife());
+        synch.hello();
     }
 }
