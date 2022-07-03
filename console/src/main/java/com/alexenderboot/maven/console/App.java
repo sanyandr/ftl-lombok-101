@@ -81,5 +81,13 @@ public class App {
         System.out.println(testWith);
         WithExample testWithClone = testWith.withAge(9);
         System.out.println(testWithClone);
+
+        //Lesson 15, LazyGetter
+        //cached expression counts just once
+        GetterLazyExample exp = new GetterLazyExample();
+        double[] rez = exp.getCached();
+        for (int i = 0; i < 9; i++) {
+            System.out.println(rez[i]);
+        }
     }
 }
