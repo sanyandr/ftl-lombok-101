@@ -37,7 +37,7 @@ public class App {
         ToStringExample.Square shape1 = new ToStringExample.Square(1, 1);
         //System.out.println(shape1);
 
-        //Lesson 8, Eq&Hash
+        //Lesson 8, Eq&Hash ?
         Square square = new Square(1, 1);
         Square square1 = new Square(1, 1 );
         System.out.println(square);
