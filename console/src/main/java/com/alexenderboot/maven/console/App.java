@@ -89,5 +89,10 @@ public class App {
         for (int i = 0; i < 9; i++) {
             System.out.println(rez[i]);
         }
+
+        //Lesson 16, LogExample
+        LogExample.run();
+        LogExampleCategory.run();
+        LogExampleOther.run();
     }
 }
