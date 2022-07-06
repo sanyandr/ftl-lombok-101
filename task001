@@ -1,0 +1,43 @@
+{
+  "categories": {
+    "category": {
+      "@id": "1",
+      "name": {
+        "@lang": "en",
+        "#text": "\"laundry\""
+      },
+      "description": {
+        "@lang": "en",
+        "#text": "\"for daily household chores\""
+      }
+    }
+  },
+  "products": {
+    "product": {
+      "@categoryId": "1",
+      "name": {
+        "@lang": "en",
+        "#text": "\"soap\""
+      },
+      "description": {
+        "@lang": "en",
+        "#text": "\"Just a soap\""
+      },
+      "price": {
+        "@currency": "US dollar",
+        "#text": "9.99"
+      },
+      "imgs": {
+        "img": {
+          "url": "https://drive.google.com/file/d/1DoOA78AR-b_JZXJk1UMbbbeRCgsv2Y8E/view?usp=sharing",
+        },
+        "img": {
+          "url": "https://drive.google.com/file/d/1GVYfdtOXA-DJ-JWFwaG9ES5Rf9HtpkoW/view?usp=sharing",
+        },
+        "img": {
+          "url": "https://drive.google.com/file/d/1ftJHuB_mAunmzVtW8mAZ-uUOdjcMJJY0/view?usp=sharing",
+        },
+      }
+    }
+  }
+}
